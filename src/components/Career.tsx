@@ -2,11 +2,9 @@ import "./styles/Career.css";
 import { config } from "../config";
 
 const getDisplayYear = (period: string) => {
-  if (period.includes("Present")) return "NOW";
-  if (period.includes(" - ")) {
-    return period.split(" - ")[0]; // Show start year for ranges
-  }
-  return period; // Single year like "2021"
+  if (period.toLowerCase().includes("present")) return "NOW";
+  const match = period.match(/\b(20\d{2})\b/);
+  return match ? match[1] : period;
 };
 
 const Career = () => {

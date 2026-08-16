@@ -3,130 +3,104 @@ export const config = {
         name: "Guna K",
         fullName: "Guna K",
         title: "Software & GenAI Developer",
-        description: "CS undergraduate specializing in AI & ML at SRMIST. Builds and ships full-stack applications and applied ML/GenAI systems end-to-end – from data pipeline and model to deployed, production-ready API."
+        description: "CS undergraduate (AI & ML specialisation) at SRMIST seeking a Software Development internship. Builds and ships full-stack applications and applied ML/GenAI systems end-to-end – from data pipeline and model to deployed, production-ready API – backed by hands-on experience with RESTful APIs, cloud deployment (AWS, Docker), LLM-based systems, and open-source collaboration."
     },
     social: {
         github: "Guna-kannan",
         email: "guna.k.career@gmail.com",
+        phone: "+91-8778040276",
         location: "Chennai, Tamil Nadu",
-        resume: "https://drive.google.com/file/d/1AJ8s8rx78Tv_kw2EV4Jz_niCXvW_3q9c/view?usp=sharing"
+        website: "https://gunak.me",
+        resume: "https://drive.google.com/file/d/1alvIf7Gaei7MbtdU5Zl-D4UCEXXdYOMF/view?usp=sharing"
     },
     about: {
         title: "About Me",
-        description: "I am a Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning at SRM Institute of Science and Technology. As a dedicated developer, I build, deploy, and scale responsive full-stack web applications and intelligent machine learning/Generative AI systems end-to-end. My technical experience spans MERN stack development, RESTful APIs, cloud infrastructure (AWS, Docker), open-source collaboration, and prompt engineering. With a strong foundation in data structures and software engineering, I am focused on bridging the gap between advanced AI models and production-ready applications to solve real-world challenges."
+        description: "I am a Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning at SRM Institute of Science and Technology (2024–2028). I build and ship full-stack applications and applied ML/GenAI systems end-to-end — from data pipelines and models to deployed, production-ready APIs. My technical experience spans MERN stack development (React 19, TypeScript, Node.js), RESTful APIs, cloud deployment (AWS, Docker), LLM-based systems, prompt engineering, RAG, and open-source collaboration. Backed by strong foundations in data structures and software engineering, I am passionate about engineering reliable software and intelligent systems."
     },
     experiences: [
         {
-            position: "Microsoft Student Ambassador",
-            company: "Microsoft",
-            period: "July 2026 - Present",
-            location: "Chennai, Tamil Nadu",
-            description: "Representing Microsoft on campus as a certified Student Ambassador. Organizing technical workshops and leading peer outreach on Microsoft and Azure developer tools.",
-            responsibilities: [
-                "Representing Microsoft on campus as a certified Student Ambassador",
-                "Organizing technical workshops for peers",
-                "Leading outreach on Microsoft/Azure developer tools"
-            ],
-            technologies: ["Azure", "Developer Tools", "Community Outreach", "Workshops"]
-        },
-        {
-            position: "MERN Back End Developer Intern",
+            position: "MERN Front End Developer Intern",
             company: "BrainMint",
-            period: "June 2026 - Present",
+            period: "May 2026 – Present",
             location: "Remote",
-            description: "Focusing on backend development using the MERN stack. Building and deploying scalable backend services, integrating APIs, and managing database systems.",
+            description: "Building the Kanban Board and Sprint Management modules for CREWPAL, a team project-management app, using React 19, TypeScript, Vite, Tailwind CSS v4. Integrating Figma design specs into production components and coordinating shared data contracts across the frontend team.",
             responsibilities: [
-                "Developing backend services using Node.js, Express.js, and MongoDB",
-                "Building and integrating RESTful APIs",
-                "Managing database schemas and optimizing query performance"
+                "Building the Kanban Board and Sprint Management modules for CREWPAL, a team project-management app, using React 19, TypeScript, Vite, Tailwind CSS v4",
+                "Integrating Figma design specs into production components and coordinating shared data contracts across the frontend team"
             ],
-            technologies: ["Node.js", "Express.js", "MongoDB", "REST APIs", "MERN Stack"]
+            technologies: ["React 19", "TypeScript", "Vite", "Tailwind CSS v4", "MERN Stack", "Figma"]
         },
         {
-            position: "Open Source Contributor",
-            company: "GirlScript Summer of Code (GSSoC)",
-            period: "May 2026 - Present",
+            position: "Enterprise Software Intern",
+            company: "Argit Solutions Private Limited",
+            period: "June 2026 – July 2026",
             location: "Remote",
-            description: "Contributing to open-source software repositories, resolving bugs, developing features, and submitting pull requests reviewed by core maintainers using standard Git/GitHub workflows.",
+            description: "Developed features for an enterprise/ERP software product, gaining hands-on exposure to business-process-driven software development.",
             responsibilities: [
-                "Resolving bugs and adding features in open-source projects",
-                "Submitting pull requests reviewed by project maintainers",
-                "Collaborating using standard Git/GitHub workflows"
+                "Developed features for an enterprise/ERP software product",
+                "Gained hands-on exposure to business-process-driven software development"
             ],
-            technologies: ["Git", "GitHub", "Open Source", "Collaboration"]
+            technologies: ["Enterprise Software", "ERP Software", "Business Process Driven Development"]
         },
         {
-            position: "Gen AI Virtual Internship",
+            position: "Generative AI Intern",
             company: "Edunet Foundation",
-            period: "Jan 2026 - Mar 2026",
+            period: "Jan 2026 – Mar 2026",
             location: "Remote",
-            description: "Designed and deployed a Gen AI-powered application leveraging LLM APIs. Integrated prompt engineering techniques, improving response accuracy by ~30%. Explored Retrieval-Augmented Generation (RAG) architectures and documented findings in a structured report for IBM SkillsBuild.",
+            description: "Designed and deployed a Gen AI-powered application leveraging LLM APIs; integrated prompt engineering techniques, improving response accuracy by ~30%. Explored Retrieval-Augmented Generation (RAG) architectures; documented findings in a structured report for IBM SkillsBuild.",
             responsibilities: [
                 "Designed and deployed a Gen AI-powered application leveraging LLM APIs",
                 "Integrated prompt engineering techniques to improve response accuracy by ~30%",
                 "Explored Retrieval-Augmented Generation (RAG) architectures",
                 "Documented findings in a structured report for IBM SkillsBuild"
             ],
-            technologies: ["Generative AI", "LLM APIs", "Prompt Engineering", "RAG", "IBM SkillsBuild", "MongoDB", "AWS"]
+            technologies: ["Generative AI", "LLM APIs", "Prompt Engineering", "RAG", "IBM SkillsBuild"]
         },
         {
             position: "Machine Learning Intern",
-            company: "Future Interns",
-            period: "Dec 2025 - Jan 2026",
+            company: "Future Interns & axcentra",
+            period: "Dec 2025 – Jan 2026",
             location: "Remote",
-            description: "Developed machine learning models using Python and explored neural network architectures, data preprocessing pipelines, and model evaluation techniques.",
+            description: "Completed project-based ML internships; built a Heart Disease Prediction system, implementing and comparing multiple classification algorithms across preprocessing, feature selection, and model evaluation.",
             responsibilities: [
-                "Building predictive models and data preprocessing pipelines in Python",
-                "Implementing and evaluating core machine learning algorithms",
-                "Exploring neural network architectures for classification tasks"
+                "Completed project-based ML internships",
+                "Built a Heart Disease Prediction system",
+                "Implemented and compared multiple classification algorithms across preprocessing, feature selection, and model evaluation"
             ],
-            technologies: ["Python", "Machine Learning", "Data Preprocessing", "Neural Networks"]
-        },
-        {
-            position: "Machine Learning Intern",
-            company: "axcentra",
-            period: "Dec 2025",
-            location: "Remote",
-            description: "Completed an internship focused on machine learning implementations, building predictive models, and analyzing data metrics for business insights.",
-            responsibilities: [
-                "Developing predictive models to deliver data-driven insights",
-                "Analyzing data metrics and creating visualizations",
-                "Assisting with model deployments and parameter tuning"
-            ],
-            technologies: ["Python", "Machine Learning", "Data Analysis", "Predictive Modeling"]
-        },
-        {
-            position: "Student Member",
-            company: "Indian Society for Technical Education",
-            period: "Sept 2025 - Present",
-            location: "Chennai, Tamil Nadu",
-            description: "Engaging with the professional technical community to foster engineering education, attend workshops, and collaborate on student-led technical initiatives.",
-            responsibilities: [
-                "Fostering engineering education and student collaboration",
-                "Participating in technical seminars and workshops",
-                "Collaborating on student-led technical projects and initiatives"
-            ],
-            technologies: ["Technical Education", "Seminars", "Collaboration"]
+            technologies: ["Python", "Machine Learning", "Classification Algorithms", "Data Preprocessing", "Feature Selection", "Model Evaluation"]
         },
         {
             position: "Full Stack Developer Intern",
             company: "Infogreen",
             period: "June 2025",
             location: "Salem, Tamil Nadu, India",
-            description: "Built responsive web apps using React.js, Node.js, Express.js with RESTful APIs and MongoDB. Improved page load speed by 40% through lazy loading and code-splitting. Implemented JWT-based authentication and role-based access control; deployed apps on AWS EC2 with Docker containerisation.",
+            description: "Built responsive web apps using React.js, Node.js, Express.js with RESTful APIs and MongoDB; improved page load speed by 40% through lazy loading and code-splitting. Implemented JWT-based authentication and role-based access control; deployed apps on AWS EC2 with Docker containerisation.",
             responsibilities: [
-                "Built 3 responsive web apps using React.js, Node.js, Express.js, and MongoDB",
+                "Built responsive web apps using React.js, Node.js, Express.js with RESTful APIs and MongoDB",
                 "Improved page load speed by 40% through lazy loading and code-splitting",
                 "Implemented JWT-based authentication and role-based access control",
-                "Deployed applications on AWS EC2 using Docker containerization"
+                "Deployed applications on AWS EC2 using Docker containerisation"
             ],
-            technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "AWS EC2", "Docker"]
+            technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "RESTful APIs", "JWT", "AWS EC2", "Docker"]
+        },
+        {
+            position: "Open Source Contributor",
+            company: "GSSoC (GirlScript Summer of Code), JEC Jabalpur",
+            period: "May 2026 – Present",
+            location: "Remote",
+            description: "Contributed to open-source projects via GSSoC’26 – resolved issues and submitted PRs reviewed by maintainers, collaborating through standard Git/GitHub workflows.",
+            responsibilities: [
+                "Contributed to open-source projects via GSSoC’26",
+                "Resolved issues and submitted PRs reviewed by maintainers",
+                "Collaborated through standard Git/GitHub workflows"
+            ],
+            technologies: ["Git", "GitHub", "Open Source", "Collaboration"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "End-to-End Deployed ML",
+            title: "End-to-End Deployed ML Application",
             category: "Machine Learning / DevOps",
             technologies: "Python, FastAPI, Docker, AWS, Scikit-learn, Pandas",
             image: "/images/fraud-detection.png",
@@ -142,7 +116,7 @@ export const config = {
         },
         {
             id: 3,
-            title: "RAG Document Q&A",
+            title: "RAG-Based Document Q&A Assistant",
             category: "Generative AI / NLP",
             technologies: "Python, LLM APIs, FAISS, Vector Embeddings, RAG, REST API",
             image: "/images/rag-qa.png",
@@ -151,8 +125,10 @@ export const config = {
     ],
     contact: {
         email: "guna.k.career@gmail.com",
+        phone: "+91-8778040276",
         github: "https://github.com/Guna-kannan",
         linkedin: "https://linkedin.com/in/guna-k-career",
+        website: "https://gunak.me",
         twitter: "",
         facebook: "",
         instagram: ""
@@ -162,13 +138,35 @@ export const config = {
             title: "AI & ML DEVELOPER",
             description: "Building intelligent models & applied GenAI systems",
             details: "Developing applied ML/GenAI systems end-to-end: from data pipeline and model to deployed, production-ready API. Backed by hands-on experience with LLM APIs, prompt engineering, RAG, FAISS, and vector embeddings.",
-            tools: ["Python", "SQL", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "LLM APIs", "RAG", "FAISS", "Vector Embeddings", "Prompt Engineering"]
+            tools: ["Python", "SQL", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "LLM APIs", "Prompt Engineering", "RAG", "Vector Embeddings", "FAISS", "EDA"]
         },
         design: {
             title: "FULL-STACK DEVELOPER",
             description: "Modern web applications & cloud deployment",
-            details: "Building responsive and performant full-stack web applications using React.js, Node.js, Express.js, FastAPI, and databases (MySQL, MongoDB, Supabase). Containerizing and deploying with Docker on AWS.",
-            tools: ["JavaScript", "React.js", "Node.js", "Express.js", "FastAPI", "HTML/CSS", "TailwindCSS", "MySQL", "MongoDB", "Supabase", "Git/GitHub", "Docker", "AWS"]
+            details: "Building responsive and performant full-stack web applications using React.js, Node.js, Express.js, FastAPI, and databases (MySQL, MongoDB). Containerizing and deploying with Docker on AWS.",
+            tools: ["JavaScript", "Java", "React.js", "Node.js", "Express.js", "FastAPI", "HTML/CSS", "TailwindCSS", "MySQL", "Docker", "AWS (EC2, S3)", "Git", "GitHub", "Postman"]
         }
-    }
+    },
+    education: {
+        degree: "B.Tech – CSE (AI & ML Specialisation)",
+        institution: "SRM Institute of Science and Technology",
+        period: "July 2024 – May 2028 (Expected)"
+    },
+    certifications: [
+        "Microsoft Certified: Azure AI Fundamentals (AI-900)",
+        "AWS Academy – Generative AI Foundations",
+        "AWS Academy – Machine Learning for Natural Language Processing",
+        "AWS Academy – Machine Learning Foundations",
+        "IBM SkillsBuild – Artificial Intelligence Foundations",
+        "Tata GenAI Powered Data Analytics Job Simulation (Forage)",
+        "Mastering Data Structures & Algorithms using C and C++ (Udemy)",
+        "Fundamentals of Object-Oriented Programming & C Programming",
+        "C Programming for College Students",
+        "Student Member – Indian Society for Technical Education (ISTE)"
+    ],
+    languages: [
+        { name: "Tamil", level: "Native" },
+        { name: "English", level: "Professional" },
+        { name: "French", level: "Elementary" }
+    ]
 };
